@@ -1,5 +1,5 @@
 {
-    "name": "zz\/weather",
+    "name": "zen\/weather",
     "description": "A weather SDK",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Zz\\Weather\\": "./src/"
+            "Zen\\Weather\\": "./src/"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "Zz\\Weather\\ServiceProvider"
+                "Zen\\Weather\\ServiceProvider"
             ]
         }
     }

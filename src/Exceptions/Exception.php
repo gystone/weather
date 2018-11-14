@@ -6,7 +6,7 @@
  * Time: 下午4:16
  */
 
-namespace Zz\Weather\Exceptions;
+namespace Zen\Weather\Exceptions;
 
 
 class Exception extends \Exception
