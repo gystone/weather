@@ -1,0 +1,28 @@
+{
+    "name": "zz\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zen",
+            "email": "270281156@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zz\\Weather\\": "./src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Zz\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
