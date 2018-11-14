@@ -6,7 +6,7 @@
  * Time: 下午5:59
  */
 
-namespace Zen\Weather;
+namespace TJZen\Weather;
 
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider

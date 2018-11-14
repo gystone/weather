@@ -6,7 +6,7 @@
  * Time: 下午4:17
  */
 
-namespace Zen\Weather\Exceptions;
+namespace TJZen\Weather\Exceptions;
 
 
 class HttpException extends Exception

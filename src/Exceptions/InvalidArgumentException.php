@@ -6,7 +6,7 @@
  * Time: 下午4:16
  */
 
-namespace Zen\Weather\Exceptions;
+namespace TJZen\Weather\Exceptions;
 
 
 class InvalidArgumentException extends Exception

@@ -6,16 +6,16 @@
  * Time: 下午4:57
  */
 
-namespace Zen\Weather\Tests;
+namespace TJZen\Weather\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
 use Mockery\Matcher\AnyArgs;
 use PHPUnit\Framework\TestCase;
-use Zen\Weather\Exceptions\HttpException;
-use Zen\Weather\Exceptions\InvalidArgumentException;
-use Zen\Weather\Weather;
+use TJZen\Weather\Exceptions\HttpException;
+use TJZen\Weather\Exceptions\InvalidArgumentException;
+use TJZen\Weather\Weather;
 
 class WeatherTest extends TestCase
 {

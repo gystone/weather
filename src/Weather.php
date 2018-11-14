@@ -6,12 +6,12 @@
  * Time: 下午3:39
  */
 
-namespace Zen\Weather;
+namespace TJZen\Weather;
 
 
 use GuzzleHttp\Client;
-use Zen\Weather\Exceptions\HttpException;
-use Zen\Weather\Exceptions\InvalidArgumentException;
+use TJZen\Weather\Exceptions\HttpException;
+use TJZen\Weather\Exceptions\InvalidArgumentException;
 
 class Weather
 {
