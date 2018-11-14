@@ -53,7 +53,7 @@ $response = $weather->getWeather('天津');
 ```shell
 $response = $weather->getWeather('天津', 'all');
 ```
-#####示例
+##### 示例
 ```shell
 {
     "status": "1",
@@ -121,7 +121,7 @@ $response = $weather->getWeather('天津', 'all');
 }
 ```
 ## 获取 XML 格式返回值
-#####第三个参数为返回值类型，可选 json 与 xml，默认 json：
+##### 第三个参数为返回值类型，可选 json 与 xml，默认 json：
 ```shell
 $response = $weather->getWeather('天津', 'all', 'xml');
 ```
